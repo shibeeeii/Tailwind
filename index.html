@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Tailwind -->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- awesom -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="md:mb-2 px-4 shadow bg-orange-700 md:my-0">
+        <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+          <a class="flex items-center text-2xl" href="/">
+            <span class=" head text-3xl"><i class="fa-brands fa-pied-piper me-3" style="color: #ffffff;"></i>DIGI SOLUTIONS</span>
+          </a>
+          <input class="peer hidden" type="checkbox" id="navbar-open" />
+          <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+            <span class="sr-only">Toggle Navigation</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" /></svg>
+          </label>
+          <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+            <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8 text-white">
+              <li class=""><a class="text-white hover:text-yellow-600" href="#about">About</a></li>
+              <li class=""><a class="text-white hover:text-yellow-600" href="#service">Services</a></li>
+              <li class=""><a class="text-white hover:text-yellow-600" href="#review">Reviews</a></li>
+              <li class="mt-2 sm:mt-0"><a class="rounded-xl border-2 border-white px-6 py-2 font-medium text-white hover:bg-yellow-600 hover:text-white" href="#">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+<section id="home">
+        <div class="bg-orange-700">
+          <div class="md:grid grid-cols-3">
+              <div class="md:mt-60">
+                <div class="flex flex-col justify-center items-center "><img src="./icons 1.png" alt="image" height="200px" width="200px"></div>
+                  <h1 class="text-center text-4xl">Make Your Own Brand</h1>
+                  <p class="text-justify ms-5 mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor cum voluptate reprehenderit provident incidunt est animi illo libero quae id, quaerat eos pariatur architecto ab quia cupiditate quis excepturi!</p>
+                  <div class="flex flex-col justify-center items-center mt-5"><button class="bg-yellow-400 w-40 rounded p-1 but">Get Started</button></div>
+              </div>
+              <div class="flex flex-col justify-center items-center">
+                  <h1 class="main text-white flex flex-col justify-center items-center">We Creates</h1>
+                  <img class="flex flex-col justify-center items-center" src="./digi.png" alt="no image">
+              </div>
+              <div class="md:mt-60">
+                <div class="flex flex-col justify-center items-center "><img src="./icon3.png" alt="image" height="340px" width="250px"></div>
+                  <h1 class="text-center text-4xl">Branding Your Brand</h1>
+                  <p class="text-justify me-5 mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor cum voluptate reprehenderit provident incidunt est animi illo libero quae id, quaerat eos pariatur architecto ab quia cupiditate quis excepturi!</p>
+                  <div class="flex flex-col justify-center items-center mt-5"><button class="bg-yellow-400 w-40 rounded p-1 but">See More</button></div>
+              </div>
+          </div>
+  
+        </div>
+</section>
+
+      <!-- abt -->
+<section id="about">
+        <div class="md:grid grid-cols-1">
+          <h1 class="mt-10 text-gray-600 text-4xl text-center abt">About Us</h1>
+  
+          <div class="md:grid grid-cols-2">
+              <div class="md:mt-10">
+                  <p class="text-gray-800 text-justify p-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos soluta dolore illum similique optio inventore expedita ratione. Illum iste totam fugiat, dolore excepturi eum eius facilis molestiae adipisci voluptates repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quae voluptatibus nostrum, at maiores vero rerum ea deleniti sint odit laudantium exercitationem est quos necessitatibus praesentium voluptas cumque iure. Nesciunt.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque culpa molestias laborum iusto nobis aut reprehenderit, magnam numquam corporis, iste fuga reiciendis voluptas sit voluptatum optio voluptatibus dolores alias similique!
+                  </p>
+                  
+                  <p class="text-gray-800 text-justify p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi magni iste ratione totam qui, beatae, quisquam mollitia illum aperiam cupiditate nemo ex laudantium quo eum. Omnis excepturi voluptatem suscipit sunt?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nam, nihil architecto minus, sapiente earum doloremque porro soluta neque tempore nulla odit consectetur? Nam quidem aliquid tenetur veritatis, accusantium quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur earum adipisci animi nemo error provident dolorum fuga minima sapiente. Nulla illo error dolorum cupiditate vero perferendis explicabo, aliquam aut!</p>
+  
+              </div>
+              <div class="md:mt-10 ">
+                  <img src="./Screenshot 2024-10-31 102125.png" alt="" height="400px" width="100%">
+  
+  
+  
+              </div>
+  
+  
+  
+          </div>
+        </div>
+</section>
+
+      <!-- work -->
+<section id="service">
+  <div class="md:grid grid-cols-1 md:mt-10 ">
+          <h1 class="mt-10 text-gray-600 text-4xl text-center abt">Our Services</h1>
+          <div class="md:grid grid-cols-3 bg-orange-700 md:mt-10">
+            <div class="">
+              <div class="flex flex-col justify-center items-center md:mt-10">
+                <img src="./icon2.png" alt="image" width="100px" height="100px">
+              </div>
+              <div>
+                <h2 class="head flex flex-col justify-center items-center md:mt-5">Market All Over</h2>
+              </div>
+              <p class="text-justify p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, iste sapiente. Numquam, ad fugit! Cumque, maiores porro! Vel alias consequatur dolor accusamus fugiat aut debitis exercitationem, nulla molestiae rerum voluptatibus.</p>
+            </div>
+            <div>
+              <div class="flex flex-col justify-center items-center md:mt-10">
+                <img src="./icon3.png" alt="image" width="170px" height="160px" >
+              </div>
+              <div>
+                <h2 class="head flex flex-col justify-center items-center md:mt-5">Maintainance</h2>
+              </div>
+              <p class="text-justify p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, iste sapiente. Numquam, ad fugit! Cumque, maiores porro! Vel alias consequatur dolor accusamus fugiat aut debitis exercitationem, nulla molestiae rerum voluptatibus.</p>
+    
+            </div>
+            <div>
+              <div class="flex flex-col justify-center items-center md:mt-10">
+                <img src="./icon4.png" alt="image" width="120px" height="110px">
+              </div>
+              <div>
+                <h2 class="head flex flex-col justify-center items-center md:mt-5">Social Marketing</h2>
+              </div>
+              <p class="text-justify p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, iste sapiente. Numquam, ad fugit! Cumque, maiores porro! Vel alias consequatur dolor accusamus fugiat aut debitis exercitationem, nulla molestiae rerum voluptatibus.</p>
+  
+  
+            </div>
+  
+          </div>
+          
+          
+  </div>
+</section>
+<!-- review -->
+ <section id="review">
+  <h1 class="my-10 text-gray-600 text-4xl text-center abt">Our Reviews</h1>
+  <div class="md:grid grid-cols-3">
+    <div>
+      <div class="flex flex-col justify-center items-center md:mt-5">
+        <img src="./5.png" alt="no image" height="150px" width="150px">
+      </div>
+      <div class="flex flex-col justify-center items-center md:mt-5 px-10">
+        <h5 class="rw text-gray-800">Shibil Nalakath</h5>
+        <div>
+          <p class="text-gray-800 text-justify md:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit aut commodi recusandae ipsa distinctio perspiciatis atque. Dicta totam itaque iusto, quo blanditiis, minima vero similique eveniet necessitatibus nesciunt fuga?</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="flex flex-col justify-center items-center md:mt-5">
+        <img src="./5.png" alt="no image" height="150px" width="150px">
+      </div>
+      <div class="flex flex-col justify-center items-center md:mt-5 px-10">
+        <h5 class="rw text-gray-800">Muhammed Niyas</h5>
+        <div>
+          <p class="text-gray-800 text-justify md:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit aut commodi recusandae ipsa distinctio perspiciatis atque. Dicta totam itaque iusto, quo blanditiis, minima vero similique eveniet necessitatibus nesciunt fuga?</p>
+        </div>
+      </div>
+      
+    </div>
+    <div>
+      <div class="flex flex-col justify-center items-center md:mt-5">
+        <img src="./5.png" alt="no image" height="150px" width="150px">
+      </div>
+      <div class="flex flex-col justify-center items-center md:mt-5 px-10">
+        <h5 class="rw text-gray-800">Naseel PT</h5>
+        <div>
+          <p class="text-gray-800 text-justify md:mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit aut commodi recusandae ipsa distinctio perspiciatis atque. Dicta totam itaque iusto, quo blanditiis, minima vero similique eveniet necessitatibus nesciunt fuga?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+
+
+
+
+<!-- footer -->
+      <div class="grid md:grid-cols-4 bg-orange-700 md:mt-10">
+        <div>
+          <div>
+            <h1 class="head flex flex-col justify-center items-center md:mt-10">DIGI SOLUTIONS</h1>
+          </div>
+          <div>
+            <p class="text-justify px-10 py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ducimus explicabo commodi eaque iure laboriosam tenetur eligendi nemo fugit laborum perferendis incidunt, impedit id sapiente dolorum voluptatibus optio quis recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1 class="head flex flex-col justify-center items-center md:mt-10 sm:mt-10">LINKS</h1>
+            <div>
+              <p class="flex flex-col justify-center items-center p-3"><a href="#home">Home</a></p>
+              <p class="flex flex-col justify-center items-center p-3"><a href="#about">About</a></p>
+              <p class="flex flex-col justify-center items-center p-3"><a href="#service">Services</a></p>
+              <p class="flex flex-col justify-center items-center p-3"><a href="#review">Reviews</a></p>
+            </div>
+          </div>
+          
+        </div>
+        <div>
+          <div>
+            <h1 class="head flex flex-col justify-center items-center md:mt-10 sm:mt-10">REFERENCE</h1>
+            <div>
+              <p class="flex flex-col justify-center items-center p-3">HTML</p>
+              <p class="flex flex-col justify-center items-center p-3">Tailwind</p>
+              <p class="flex flex-col justify-center items-center p-3">Waves svg</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1 class="head flex flex-col justify-center items-center md:mt-10 sm:mt-10">CONTACT US</h1>
+
+          </div>
+          <div class="flex flex-col justify-center items-center md:mt-5">
+<div>
+                <input type="text" placeholder="E-mail id" class="form-control rounded">
+                <button class="bg-yellow-400 rounded px-2 but">Send</button>
+</div>
+<div class="text-white flex  md:mt-5 items-center">
+  <i class="fa-brands fa-instagram text-4xl px-3"></i>
+  <i class="fa-brands fa-whatsapp text-4xl px-3"></i>
+  <i class="fa-brands fa-linkedin text-4xl px-3"></i>
+  <i class="fa-brands fa-x-twitter text-4xl px-3"></i>
+</div>
+          </div>
+        </div>
+
+
+      </div>
+      
+    
+</body>
+</html>
